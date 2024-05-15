@@ -27,7 +27,7 @@ export const loginUser = async (user: Partial<IUser>) => {
   }
   const isUser = await User.findByCredentials(username, password);
   if (!isUser) {
-    return null;
+    return new Error("User Not found");
   }
 
   const existingUser = isUser as IUser;
