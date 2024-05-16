@@ -61,12 +61,12 @@ Make sure you have the following installed:
 
    The project includes a `User` model with the following CRUD functionality:
 
-   ** - Register**: Creates a new user
-   **- Login**: Authenticates a user
-   **- Delete**: Deletes a user
-   **- Update**: Updates a user's information(using PUT, not PATCH)
-   **- Get One User**: Retrieves a single user by ID
-   **- Get All Users**: Retrieves a list of all users
+   - Register: Creates a new user
+   - Login: Authenticates a user
+   - Delete: Deletes a user
+   - Update: Updates a user's information(using PUT, not PATCH)
+   - Get One User: Retrieves a single user by ID
+   - Get All Users: Retrieves a list of all users
 
    ### Authentication
 
